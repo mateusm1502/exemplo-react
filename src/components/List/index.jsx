@@ -1,24 +1,24 @@
 import './style.css'
 
-function list() {
+function List() {
     return (
-         <section>
-      <h2 id="exemplo-h2">Seçao de lista</h2>
+        <section>
+            <h2 id="exemplo-h2">Seçao de listas</h2>
+            <h3>Exemplo</h3>
+            <ul>
+                <li>Chocolate</li>
+                <li>Salgadinho</li>
+                <li>Balas</li>
+            </ul>
 
-      <h3>Lista nao ordenada</h3>
-      <ul id="ul">
-        <li>batata</li>
-        <li>pao</li>
-        <li>arroz</li>
-      </ul>
-
-      <h3>Lista ordena</h3>
-      <ol>
-        <li>Rotiwels</li>
-        <li>Barbye</li>
-        <li>Poquemon</li>
-      </ol>
-
-      </section>
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>Arroz</li>
+                <li>Feijao</li>
+                <li>Farofa</li>
+            </ol>
+        </section>
     )
 }
+
+export default List

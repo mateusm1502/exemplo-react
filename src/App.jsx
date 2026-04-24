@@ -1,21 +1,22 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import List from './components/List'
+import Home from './pages/Home'
+import About from './pages/About'
+import SignUp from './pages/SignUp'
 
 function App() {
-   
   return (
     <>
       <Header />
-      <List />
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+        <Route path="/about" element={<About />} /> 
+        <Route path="/signup" element={<SignUp />} />
+      </Routes>
       <Footer />
-      <list
-
-      <footer id="footer">
-        <p> Minha primeira API React - %copy;
-          Todos os direitos reservados </p>
-      </footer>
     </>
   )
 }

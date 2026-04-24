@@ -1,11 +1,11 @@
 import './style.css'
 
-function header() {
+function Header () {
     return (
         <header>
-            <h1>Exemplo de React</h1>
+            <h1>Lista de mercado</h1>
         </header>
     )
 }
 
-export default header
+export default Header

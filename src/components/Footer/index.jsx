@@ -1,12 +1,12 @@
-import 'style.css'
+import './style.css'
 
-function list() {
-    return (
-        <footer id="footer">
-            <p> Minha primeira API React - %copy;
-                Todos os direitos reservados </p>
+function Footer() {
+    return ( 
+        <footer id="Footer"> 
+        <p> Minha API react - &copy; todos os direitos reservados</p>
         </footer>
-    )
+    ) 
+    
 }
 
-export default list
+export default Footer
